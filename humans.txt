@@ -1,0 +1,8 @@
+
+	/* */
+
+	Position   : Designer & Developer
+	Persona    : Kirill Nikitin
+	Site       : https://kiriniy.ru
+	Twitter    : https://twitter.com/kiriniy
+	Location   : Moscow, Russia
