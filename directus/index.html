@@ -1,0 +1,142 @@
+
+<!DOCTYPE HTML>
+
+<html lang="ru" class="h-100">
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+
+    <title>Директус</title>
+
+    <meta name="robots" content="index, follow">
+    <meta name="rating" content="general">
+    <meta name="description" content="Виртуальный арт-директор для дизайнеров.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no, address=no, date=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css">
+
+    <style>body {background-color: #DC3346;} .reload {cursor: pointer;} .asterisk {margin-left:-1.5em; padding-right: 0.2em;} @media (min-width: 1200px) {.display-1 {font-size: 10rem; line-height: 9rem;}}</style>
+
+  </head>
+
+  <body class="d-flex h-100 text-light bg-danger">
+    <div class="d-flex h-100 mx-auto p-2 flex-column">
+
+      <header class="mb-auto py-5">
+        <div class="container">
+           <div class="row">
+             <div class="col">
+               <h1>Директус</h1>
+             </div>
+
+             <div class="col align-self-center no-js">
+               <span class="float-end h4 reload" onclick="location.reload();"><i class="fas fa-redo"></i></span>
+             </div>
+
+             <div class="col-12">
+               <div class="border-bottom border-5 border-light py-3"></div>
+             </div>
+           </div>
+         </div>
+      </header>
+
+      <main class="py-5">
+        <div class="container">
+           <div class="row">
+             <div class="col-12">
+
+               <noscript>
+                 <style>.no-js {display: none;}</style>
+                 <p class="display-1 fw-bold animated fadeIn">Для работы* <br>нужно <a class="link-light" href="https://www.enablejavascript.io/ru">включить</a> javascript!</p>
+                 <img src="https://mc.yandex.ru/watch/86321133" style="position:absolute; left:-9999px;" alt="">
+               </noscript>
+
+               <div class="no-js data">
+                 <p id="title" class="display-1 fw-bold animated fadeIn mb-5">Представь* <br>как открываешь макет...</p>
+                 <button type="button" id="ask" class="btn btn-lg btn-outline-light">Что скажешь, Директус?</button>
+                 <p id="directusSays" class="display-1 fw-bold d-none animated fadeIn"></p>
+               </div>
+             </div>
+           </div>
+         </div>
+      </main>
+
+      <footer class="mt-auto py-5">
+        <div class="container">
+           <div class="row">
+             <div class="col-12 col-md-4 col-lg-6 order-2 order-md-1 align-self-end no-js">
+               <div class="ya-share2 pt-5" data-curtain data-size="s" data-color-scheme="whiteblack" data-services="vkontakte,facebook,twitter,telegram,whatsapp"></div>
+             </div>
+
+             <div class="col order-1 order-md-2">
+               <span class="display-2 d-none d-sm-block">&mdash;</span>
+               <span class="d-block d-sm-none mb-3"><i class="fas fa-asterisk"></i></span>
+               <p class="small m-0"><span class="d-none d-sm-inline asterisk"><i class="fas fa-asterisk"></i></span> Виртуальный арт-директор как <a class="link-light" href="https://ru.wikipedia.org/wiki/Magic_8_ball">шар судьбы</a>, но только про твой дизайн. Всё это можно воспринимать как шутку, а можно как мнение вселенной. В любом случае, хоть сам дизайн и имеет принципы, мнение о нём зачастую субъективно и в этом смысле оценка Директуса не хуже остальных. Кроме того, многие склонны путать дизайн и искусство, смешивая свойства одного со свойствами другого. Дизайн не обязан быть эффектным, но если твой дизайн решает проблему, даже если он невидим — это хороший дизайн!</p>
+             </div>
+           </div>
+         </div>
+      </footer>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://yastatic.net/share2/share.js"></script>
+
+    <script type="text/javascript">
+
+    var directusSays = [
+    
+      // Нейтрально
+    
+      'Сейчас я занят, спроси попозже...',
+    
+      // Позитивно
+    
+      'Хорошо!',
+    
+       // Негативно
+    
+      'Плохо!'
+            
+    ];
+
+    var randomizer = directusSays[Math.floor(Math.random()*directusSays.length)];
+
+    $("#ask").click(function(){
+      $("#title").hide();
+      $("#ask").hide();
+      $("#directusSays").html(randomizer).removeClass('d-none');
+    });
+
+    $(".directusSaysTotal").text(directusSays.length);
+
+    // Яндекс.Метрика
+
+   (function(m, e, t, r, i, k, a) {
+     m[i] = m[i] || function() {
+       (m[i].a = m[i].a || []).push(arguments)
+     };
+     m[i].l = 1 * new Date();
+     k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+   })
+
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(86321133, "init", {
+     clickmap: true,
+     trackLinks: true,
+     accurateTrackBounce: true,
+     webvisor: true
+   });
+
+   </script>
+
+  </body>
+</html>
