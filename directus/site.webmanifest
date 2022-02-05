@@ -1,0 +1,12 @@
+{
+  "name": "\u0414\u0438\u0440\u0435\u043a\u0442\u0443\u0441",
+  "short_name": "\u0414\u0438\u0440\u0435\u043a\u0442\u0443\u0441",
+  "theme_color": "#000000",
+  "background_color": "#DC3346",
+  "start_url": "https://kiriniy.github.io/directus/",
+  "display": "standalone",
+  "icons": [
+    { "src": "https://kiriniy.github.io/directus/assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "https://kiriniy.github.io/directus/assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
