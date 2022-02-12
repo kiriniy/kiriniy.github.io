@@ -5,6 +5,24 @@
   <url>
     <loc>https://kiriniy.github.io</loc>
     <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://kiriniy.github.io/directus/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://kiriniy.github.io/interstate/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://kiriniy.github.io/settler/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
