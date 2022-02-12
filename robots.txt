@@ -1,2 +1,27 @@
 
 User-agent: *
+
+Disallow: /kill/
+Disallow: /all/
+Disallow: /humans/
+
+#          _
+#         ( )
+#          H
+#          H
+#         _H_ 
+#      .-'-.-'-.
+#     /         \
+#    |           |
+#    |   .-------'._
+#    |  / /  '.' '. \
+#    |  \ \ @   @ / /
+#    |   '---------'
+#    |    _______|
+#    |  .'-+-+-+|
+#    |  '.-+-+-+|      Crap!
+#    |    """""" |
+#    '-.__   __.-'
+#         """
+
+Sitemap: https://kiriniy.github.io/sitemap.xml
