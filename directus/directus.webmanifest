@@ -4,6 +4,7 @@
   "theme_color": "#000000",
   "background_color": "#DC3346",
   "start_url": "https://kiriniy.github.io/directus/",
+  "description": "A virtual art director for designers who has no boss.",
   "display": "standalone",
   "icons": [
     { "src": "https://kiriniy.github.io/directus/assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
