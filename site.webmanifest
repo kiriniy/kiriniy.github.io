@@ -1,3 +1,13 @@
 {
-  "name": "Kirill Nikitin"
+  "name": "Kiriniy",
+  "short_name": "Kirill Nikitin Pages",
+  "theme_color": "#EEEEEE",
+  "background_color": "#FFFFFF",
+  "start_url": "https://kiriniy.github.io/",
+  "description": "My open source personal frontend projects.",
+  "display": "standalone",
+  "icons": [
+    { "src": "https://kiriniy.github.io/assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "https://kiriniy.github.io/assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
 }
