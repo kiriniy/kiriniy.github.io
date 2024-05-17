@@ -15,6 +15,9 @@
 .apdisk
 .sass-cache
 
+.nova
+.config.codekit3
+
 Network Trash Folder
 Temporary Items
 Desktop.ini
